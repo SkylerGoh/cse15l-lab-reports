@@ -4,8 +4,9 @@
 > to only realize he simply had not saved his changes. 
 ---
 ```
-if (isCoolPage) { happiness = true; }
-else { sad = true; happiness = false; }
+if (isCoolPage()) { happiness = true; }
+else { happiness = false; }
+moodChange(happiness); // some new changes
 ```
 TODO: 
 1. program
