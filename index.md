@@ -15,5 +15,5 @@ TODO:
   * sleep
 ---
 To go back to this page click here: [Link] (https://skylergoh.github.io/cse15l-lab-reports/)
-There is no image: ![Image](https://skylergoh.github.io/cse15l-lab-reports/index.html)
+Meme: ![Image](https://miro.medium.com/max/1838/0*1SrGgNnZGPmonJum)
 
