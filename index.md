@@ -1,3 +1,19 @@
 # This is index.md
 ### this is not test.md
-> Once Upon a time there was a cs student who tried to debug an error for **4 hours** to only realize he simply had not saved his changes. 
+> *Once Upon a time* there was a cs student who tried to debug an error for **4 hours** 
+> to only realize he simply had not saved his changes. 
+---
+```
+if (isCoolPage) { happiness = true; }
+else { sad = true; happiness = false; }
+```
+TODO: 
+1. program
+2. program
+3. program
+4. program
+  * sleep
+---
+To go back to this page click here: [Link] (https://skylergoh.github.io/cse15l-lab-reports/)
+There is no image: ![Image](https://skylergoh.github.io/cse15l-lab-reports/index.html)
+
