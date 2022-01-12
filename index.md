@@ -16,5 +16,5 @@ TODO:
   * sleep
 ---
 To go back to this page click here: [Link] (https://skylergoh.github.io/cse15l-lab-reports/)
-Meme: ![Image](https://miro.medium.com/max/1838/0*1SrGgNnZGPmonJum)
+Meme: ![Image](https://www.birdnote.org/sites/default/files/Wandering-Albatross-800-Ed-Dunens-CC.jpg)
 
