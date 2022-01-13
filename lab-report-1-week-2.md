@@ -110,7 +110,7 @@ Here are some commands:
 
 ![RunningSomeCommands](RunningSomeCommands.png)
 
-To exit from the server back to your own computer simply type `exit` into the command line.
+To exit from the server back to your own computer simply type ```exit``` into the command line.
 
 <div style = "padding: 1em;">
 </div>
@@ -122,9 +122,9 @@ To exit from the server back to your own computer simply type `exit` into the co
 
 A key command needed when working on local and remote computers is the ability to copy files back and forth bewtween computers as well as running them on either. 
 
-First to copy files over we use the command `scp`
+First to copy files over we use the command ```scp```
 
-Create a test file called `Test.java` and put the following code in it:
+Create a test file called ```Test.java``` and put the following code in it:
 
 ```
 class Test {
@@ -147,9 +147,9 @@ scp Test.java cs15lwi22***@ieng6.ucsd.edu:~/
 
 In which you would get something like this if the command was typed correctly.
 
-Type `ls` to ensure that the file was copy over. 
+Type ```ls``` to ensure that the file was copy over. 
 
-Then you can `javac Test.java` and `java Test` to see the results. The results on the server of Test.java should differ from the results on your own computer. 
+Then you can ```javac Test.java``` and ```java Test``` to see the results. The results on the server of Test.java should differ from the results on your own computer. 
 
 <div style = "padding: 1em;">
 </div>
@@ -161,7 +161,7 @@ Then you can `javac Test.java` and `java Test` to see the results. The results o
 
 To make life easier, we can skip typing our passwords into the command line ever time we want to log into the server by setting up an SSH Key
 
-Run `ssh-keygen` on your computer
+Run ```ssh-keygen``` on your computer
 
 ![sshkeygen](sshkeygen.png)
 
