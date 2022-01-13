@@ -48,18 +48,21 @@ If you are having trouble you can see additional information on the Microsoft we
 <div style = "padding: 1em;">
 </div>
 
-In Visual Studeio Code, open a terminal (The command is Ctrl or Command + `). There is also button at the top right called Terminal. Highlight over it and click New Terminal in the menu options. 
-<break>
+In Visual Studio Code, open a terminal (The command is Ctrl or Command + `). There is also button at the top right called Terminal. Highlight over it and click New Terminal in the menu options. 
+
 <div style = "padding: 1em;">
 </div>
 
-In the terminal type in the command below where ** is you own specific letters in your course account which if you do not know can be found [at this ucsd website](https://sdacs.ucsd.edu/~icc/index.php).
+In the terminal type in the command below where *** is you own specific letters in your course account which if you do not know can be found 
+[at this ucsd website](https://sdacs.ucsd.edu/~icc/index.php).
+
 <div style = "padding: 1em;">
 </div>
 
 ```
 ssh cs15lwi22***@ieng6.ucsd.edu
 ```
+
 <div style = "padding: 1em;">
 </div>
 
