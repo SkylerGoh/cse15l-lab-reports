@@ -19,3 +19,7 @@ To go back to this page click here: [Link] (https://skylergoh.github.io/cse15l-l
 
 Group icon: ![Image](https://www.birdnote.org/sites/default/files/Wandering-Albatross-800-Ed-Dunens-CC.jpg)
 
+---
+Links:
+* [test](https://skylergoh.github.io/cse15l-lab-reports/test.html)
+* [lap-report-1-week-2](https://skylergoh.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
