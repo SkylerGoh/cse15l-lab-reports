@@ -15,7 +15,7 @@ TODO:
 4. program
   * sleep
 ---
-To go back to this page click here: [Link] (https://skylergoh.github.io/cse15l-lab-reports/)
+To go back to this page click here: [Link](https://skylergoh.github.io/cse15l-lab-reports/)
 
 Group icon: ![Image](https://www.birdnote.org/sites/default/files/Wandering-Albatross-800-Ed-Dunens-CC.jpg)
 
