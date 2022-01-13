@@ -65,9 +65,9 @@ In the terminal type in the command below where *** is you own specific letters 
 <div style = "padding: 1em;">
 </div>
 
-`
+```
 ssh cs15lwi22***@ieng6.ucsd.edu
-`
+```
 
 <div style = "padding: 1em;">
 </div>
@@ -78,9 +78,9 @@ After you have typed that command, you might get a message like this if it is yo
 
 Type yes when prompted 
 
-`
+```
 Are you sure you want to continue connecting(yes/no/[fingerprint])?
-`
+```
 
 Similar to what is in the screenshot above and then type your password when prompted. This password is your course specific account password. 
 
@@ -99,6 +99,7 @@ You should see something like this.
 Try running some commands on server and on your own computer.
 
 Here are some commands:
+
 * cd ~
 * cd
 * ls -lat
@@ -109,7 +110,7 @@ Here are some commands:
 
 ![RunningSomeCommands](RunningSomeCommands.png)
 
-To exit from the server back to your own computer simply type ` exit ` into the command line.
+To exit from the server back to your own computer simply type `exit` into the command line.
 
 <div style = "padding: 1em;">
 </div>
@@ -124,7 +125,8 @@ A key command needed when working on local and remote computers is the ability t
 First to copy files over we use the command `scp`
 
 Create a test file called `Test.java` and put the following code in it:
-`
+
+```
 class Test {
     public static void main (String[] args) {
         System.out.println("Testing . . . ");
@@ -133,13 +135,13 @@ class Test {
         "in directory: "+ System.getProperty("user.dir"));
     }
 }
-`
+```
 
 Start by first running Test.java on your computer. Then type in the command:
 
-`
+```
 scp Test.java cs15lwi22***@ieng6.ucsd.edu:~/
-`
+```
 
 ![CopyingTestJava](CopyingTestJava.png)
 
@@ -170,17 +172,18 @@ Once the passphrase is entered it should generate some randomart image.
 
 Now we will copy the public id_rsa key to the .ssh directory of your user account on the server. First ssh into the server. Create a .ssh directory using the command mkdir .ssh and logout.
 
-`
+```
 ssh cs15lwi22***@ieng6.ucsd.edu
 Password:
-# now on server
+#now on server
 mkdir .ssh
-`
+```
+
 Then on your computer type the command:
 
-`
+```
 scp /Users/*YourName*/.ssh/id_rsa.pub cs15lwi22***@ieng6.ucsd.edu:~/.ssh/authorized_keys
-`
+```
 
 The directory will be the one you stored the ssh key in. 
 
@@ -200,7 +203,9 @@ To directly run commands on the server when ssh you can add commands at the end 
 Here I was on my computer and I was able to ssh into the servers and run `Test.java` all in the same command line. 
 
 In addition, when on the server you can use semi-colons to run multiple commands at once
-` 
+
+```
 javac Test.java; java Test
-`
+```
+
 This will automatically compile and run `Test.java`
