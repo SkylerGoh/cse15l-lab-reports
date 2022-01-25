@@ -209,3 +209,28 @@ javac Test.java; java Test
 ```
 
 This will automatically compile and run `Test.java`
+
+So now, we can run commands and ssh into servers with only a few keystrokes (Keystrokes include keys pressed on the keyboard and mouse clicks). 
+
+To fully optimize and cut time down in logging into servers and running a java file, We can first copy 
+
+```
+ssh cs15lwi22***@ieng6.ucsd.edu
+```
+which should only take 3 keystrokes (1 mouse click to drag and highlight the command and 2 presses for ctrl + c to copy the command into our clipboard)
+
+Then paste the command into the terminal and with the ssh key set up this part should only take another 3 keystrokes ( 2 presses for ctrl + v and 1 press for enter)
+
+And voilà, you were able to log into the servers with only 6 total keystrokes.
+
+In addition, if you wanted to run a file in the server, you could run commands in a similar fashion. 
+
+First copy the command for example: (3 keystrokes)
+```
+javac Test.java; java Test
+```
+Then as you work on the file test, you can simply paste the command into the terminal to run quickly. (3 keystrokes)
+
+After you have pasted and ran the command, to run the same commands again all you would have to do is press the up arrow on your keyboard. (1 keystroke)
+
+So in total, we can log in and start running commands using around 13 keystrokes. (This might depend if you needed to type out a different command, but optimally remote access can be done in less than 20 keystrokes).
