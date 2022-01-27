@@ -22,4 +22,5 @@ Group icon: ![Image](https://www.birdnote.org/sites/default/files/Wandering-Alba
 ---
 Links:
 * [test](test.html)
-* [lap-report-1-week-2](https://skylergoh.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+* [lab-report-1-week-2](https://skylergoh.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+* [lab-report-2-week-4](lab-report-2-week-4.md)
