@@ -17,7 +17,7 @@ Bugs, Symptoms, and Code Changes to MarkdownParse
 
 Here is the code diff from Github on our change to the infinite looping problem. 
 
-This is a link to the test file for the failure-inducing input that prompted the change: [InfiniteLoop-file](https://github.com/SkylerGoh/markdown-parse/blob/main/infinite-loop.md)
+This is a link to the test file for the failure-inducing input that prompted the change: [InfiniteLoop-file](https://github.com/SkylerGoh/markdown-parse/blob/1e85d527609e80e5bf33b748a720dac0817a7b5c/infinite-loop.md)
 
 #### **The Symptom:**
 
@@ -43,9 +43,9 @@ The bug in the code was caused if there was an extra blank line added to the end
 
 ![UnexpectedOutput](Lab2Screenshots\UnexpectedOutput.png)
 
-Here is the code diff from a lab group mate: [vumary's github](https://github.com/vumary/markdown-parse.git)
+Here is the code diff from a lab group mate: [vumary's github](https://github.com/vumary)
 
-This is a link to the test file for the failure-inducing input that prompted the change: [Failure-inducing-InputFile](https://github.com/vumary/markdown-parse/blob/cc80fff137d9bd0473a2428a0d47c5eb151e9175/break-test.md)
+This is a link to the test file for the failure-inducing input that prompted the change: [Failure-inducing-InputFile](https://github.com/SkylerGoh/markdown-parse/blob/63536f269b46f3db1065876853d4c7b5699a3ef0/break-test.md?plain=1)
 
 #### **The Symptom:**
 
@@ -72,9 +72,9 @@ The failure-inducing input here was break-test.md which contained
 
 ![ImageOutput](Lab2Screenshots\ImageOutput.png)
 
-Here is the code diff from a lab group mate taken from [vumary's github](https://github.com/vumary/markdown-parse.git)
+Here is the code diff from a lab group mate taken from [vumary's github](https://github.com/vumary)
 
-This is a link to the test file for the failure-inducing input that prompted the change: [Failure-inducing-InputFile](https://github.com/vumary/markdown-parse/blob/faf876b174919a1418bf296138e4b10ae30beac8/break-test-3.md)
+This is a link to the test file for the failure-inducing input that prompted the change: [Failure-inducing-InputFile](https://github.com/SkylerGoh/markdown-parse/blob/63536f269b46f3db1065876853d4c7b5699a3ef0/break-test-3.md?plain=1)
 
 #### **The Symptom:**
 
