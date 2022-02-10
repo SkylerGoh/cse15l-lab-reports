@@ -19,7 +19,7 @@ Once done downloading or if you have already downloaded Visual Studio Code, run 
 <div style = "padding: 1em;">
 </div>
 
-![VisualStudioScreenshot](VisualStudioCodeScreenshot.png)
+![VisualStudioScreenshot](Lab1ScreenShots\VisualStudioCodeScreenshot.png)
 
 <div style = "padding: 1em;">
 </div>
@@ -39,7 +39,7 @@ It should appear simialr to this screenshot. Do not worry if yours is in a diffe
 <div style = "padding: 1em;">
 </div>
 
-![OpenSSHClient](InstallingOpenSSHClient.png)
+![OpenSSHClient](Lab1ScreenShots\InstallingOpenSSHClient.png)
 
 <div style = "padding: 1em;">
 </div>
@@ -74,7 +74,7 @@ ssh cs15lwi22***@ieng6.ucsd.edu
 
 After you have typed that command, you might get a message like this if it is your first time logging into this server.
 
-![RemoteAcessMessage](RemoteAccess.png)
+![RemoteAcessMessage](Lab1ScreenShots\RemoteAccess.png)
 
 Type yes when prompted 
 
@@ -84,7 +84,7 @@ Are you sure you want to continue connecting(yes/no/[fingerprint])?
 
 Similar to what is in the screenshot above and then type your password when prompted. This password is your course specific account password. 
 
-![RemoteAccessStartup](RemoteAccessStartup.png)
+![RemoteAccessStartup](Lab1ScreenShots\RemoteAccessStartup.png)
 
 You should see something like this.
 
@@ -108,7 +108,7 @@ Here are some commands:
 * cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lwi22/public/hello.txt
 
-![RunningSomeCommands](RunningSomeCommands.png)
+![RunningSomeCommands](Lab1ScreenShots\RunningSomeCommands.png)
 
 To exit from the server back to your own computer simply type ```exit``` into the command line.
 
@@ -143,7 +143,7 @@ Start by first running Test.java on your computer. Then type in the command:
 scp Test.java cs15lwi22***@ieng6.ucsd.edu:~/
 ```
 
-![CopyingTestJava](CopyingTestJava.png)
+![CopyingTestJava](Lab1ScreenShots\CopyingTestJava.png)
 
 In which you would get something like this if the command was typed correctly.
 
@@ -163,7 +163,7 @@ To make life easier, we can skip typing our passwords into the command line ever
 
 Run ```ssh-keygen``` on your computer
 
-![sshkeygen](sshkeygen.png)
+![sshkeygen](Lab1ScreenShots\sshkeygen.png)
 
 Press enter for which file in which to save the key in or enter your own address. 
 It will then prompt you for a passphrase in which you can just enter nothing.
@@ -198,7 +198,7 @@ Now you should be able to ssh into the ieng6 servers without having to type your
 
 To directly run commands on the server when ssh you can add commands at the end of the ssh command with quotations to run the commands directly on the server.
 
-![MultipleCommands](MultipleCommands.png)
+![MultipleCommands](Lab1ScreenShots\MultipleCommands.png)
 
 Here I was on my computer and I was able to ssh into the servers and run `Test.java` all in the same command line. 
 
