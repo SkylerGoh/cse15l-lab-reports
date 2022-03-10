@@ -26,3 +26,4 @@ Links:
 * [lab-report-2-week-4](Lab-report-2-week-4.html)
 * [lab-report-3-week-6](Lab-report-3-week-6.html)
 * [lab-report-4-week-8](lab-report-4-week-8.html) 
+* [lab-report-5-week-10](Lab-report-5-week-10.html)
